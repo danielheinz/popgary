@@ -1,0 +1,44 @@
+{
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 1px 0;
+  display: flex;
+  flex-direction: column;
+  background: url(https://scontent.ftpe12-1.fna.fbcdn.net/v/t39.30808-6/240523110_6485267294824221_6049420155266901509_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=xBvVU16vfJcAX-2OiKg&_nc_ht=scontent.ftpe12-1.fna&oh=00_AT8HlCmch-Fob5zzePWxZrVy47rmqE4aDv1ijYm9IXKGdA&oe=63245953);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Nunito", sans-serif;
+  color: white;
+  text-shadow: -3px 3px 0 black, -3px -3px 0 black, 3px -3px 0 black,
+    3px 3px 0 black;
+}
+h1 {
+  margin: 20px 0 5px;
+  text-align: center;
+  font-size: 100px;
+  font-weight: 900;
+  line-height: 100px;
+  letter-spacing: 5px;
+}
+h3 {
+  margin: 0;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 60px;
+}
+.cat-image {
+  margin: 0 auto;
+  max-width: 400px;
+  width: 50%;
+}
+.cat-image.closed {
+  display: none;
+}
